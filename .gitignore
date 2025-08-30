@@ -2,3 +2,5 @@
 *.pyc
 data/
 BAMnet/
+src/core/evaluation/meteor/data
+

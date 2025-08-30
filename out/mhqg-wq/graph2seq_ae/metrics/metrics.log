@@ -1,0 +1,15 @@
+
+>>> Train Epoch: [1 / 1]
+[train-1] step: [1000 / 2374] | loss = 109.96523 | BLEU_1 = 35.189 | BLEU_2 = 20.993 | BLEU_3 = 13.560 | BLEU_4 = 8.586 | ROUGE_L = 35.274
+[train-1] step: [2000 / 2374] | loss = 106.30614 | BLEU_1 = 39.167 | BLEU_2 = 24.482 | BLEU_3 = 16.440 | BLEU_4 = 11.101 | ROUGE_L = 38.801
+Training Epoch 1 -- Loss: 105.57868 | BLEU_1 = 39.890 | BLEU_2 = 25.135 | BLEU_3 = 16.977 | BLEU_4 = 11.586 | ROUGE_L = 39.479
+
+>>> Dev Epoch: [1 / 1]
+Validation Epoch 1 -- Loss: 0.00000 | BLEU_1 = 47.026 | BLEU_2 = 32.509 | BLEU_3 = 23.766 | BLEU_4 = 17.742 | ROUGE_L = 45.558
+!!! Updated: 
+BLEU_1 = 47.026
+BLEU_2 = 32.509
+BLEU_3 = 23.766
+BLEU_4 = 17.742
+ROUGE_L = 45.558
+

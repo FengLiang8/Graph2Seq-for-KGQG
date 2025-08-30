@@ -2,7 +2,7 @@ import os
 import json
 import sys
 from . import constants as Constants
-
+import shutil
 
 class DummyLogger(object):
     def __init__(self, config, dirname=None, pretrained=None):
@@ -13,10 +13,15 @@ class DummyLogger(object):
             self.dirname = pretrained
         else:
             self.dirname = dirname
-            if os.path.exists(dirname):
-                raise Exception('Directory already exists: {}'.format(dirname))
-            os.makedirs(dirname)
+            
+            # if os.path.exists(dirname):
+            #     raise Exception('Directory already exists: {}'.format(dirname))
+            # os.makedirs(dirname)
 
+            if os.path.exists(dirname):
+                shutil.rmtree(dirname)
+            os.makedirs(dirname)
+            
         if not os.path.exists(os.path.join(self.dirname, 'metrics')):
             os.makedirs(os.path.join(self.dirname, 'metrics'))
 

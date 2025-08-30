@@ -96,8 +96,8 @@ eary_stop_metric: 'Bleu_4'
 
 random_seed: 1234
 shuffle: True # Whether to shuffle the examples during training
-max_epochs: 100
-batch_size: 30 # 30!
+max_epochs: 1
+batch_size: 8 # 30!
 patience: 10
 verbose: 1000 # Print every X batches
 
