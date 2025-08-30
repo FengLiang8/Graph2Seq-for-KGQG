@@ -13,3 +13,4 @@ BLEU_3 = 23.766
 BLEU_4 = 17.742
 ROUGE_L = 45.558
 
+[test] | test_exs = 2000 | step: [250 / 250] | BLEU_1 = 49.903 | BLEU_2 = 35.153 | BLEU_3 = 26.459 | BLEU_4 = 20.683 | ROUGE_L = 46.297

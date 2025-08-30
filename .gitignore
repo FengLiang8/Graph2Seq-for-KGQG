@@ -3,4 +3,4 @@
 data/
 BAMnet/
 src/core/evaluation/meteor/data
-
+.ipynb_checkpoints/
